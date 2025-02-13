@@ -47,6 +47,8 @@ python pedestrian_crossing.py
 This project is licensed under the MIT License.
 
 ##Author
+
 Atchuth V
+
 GitHub: [github.com/Atchuth01]
 
