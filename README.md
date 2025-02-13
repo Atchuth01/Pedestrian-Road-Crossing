@@ -35,7 +35,8 @@ cd Smart-Pedestrian-Crossing
 
 Install Dependencies
 
-pip install -r requirements.txt
+Install the modules in the file
+pip install module_name
 
 Run the System
 
@@ -49,5 +50,3 @@ This project is licensed under the MIT License.
 Atchuth V
 GitHub: [github.com/Atchuth01]
 
-
-Email: [your-email@example.com]GitHub: [github.com/yourusername]
