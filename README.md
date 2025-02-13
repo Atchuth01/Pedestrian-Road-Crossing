@@ -25,23 +25,6 @@ If the traffic is high, the system displays "DO NOT CROSS ❌" in red.
 
 ✔️ AI-Based Traffic Analysis – Uses deep learning for vehicle detection and tracking.✔️ Lane-Based Traffic Monitoring – Assigns vehicles to specific lanes and counts them.✔️ Real-Time Decision Making – Predicts whether it is safe for pedestrians to cross.✔️ Optimized Performance – Runs on CPU or GPU (CUDA-enabled) for faster processing.✔️ Simple & Lightweight – Uses YOLOv5 and Norfair, ensuring a fast and efficient implementation.
 
-📊 System Workflow
-
-   ┌─────────────────────────────────────────┐
-   │ Input Video  │  ←── Live or Pre-recorded Traffic Video
-   └────────────────────────────────────────┘
-          ↓
-   ┌─────────────────────────────────────────┐
-   │ YOLOv5 Object Detection │  ←── Detects vehicles
-   └─────────────────────────────────────────┘
-            ↓
-   ┌─────────────────────────────────────────┐
-   │ Norfair Tracking │  ←── Tracks moving vehicles & assigns lanes
-   └─────────────────────────────────────────┘
-            ↓
-   ┌─────────────────────────────────────────┐
-   │ Decision Making  │  ←── Displays "CROSS ✅" or "DO NOT CROSS ❌"
-   └─────────────────────────────────────────┘
 
 🔧 Installation
 
