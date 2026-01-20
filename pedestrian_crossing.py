@@ -1,4 +1,4 @@
- #Smart Pedestrian Road Crossing
+#Smart Pedestrian Road Crossing
 
 import cv2
 import torch
@@ -76,5 +76,6 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
+
 
 
